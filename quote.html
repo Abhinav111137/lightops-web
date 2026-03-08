@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get a Quote — LightOps Solutions</title>
+  <meta name="description" content="Request a project quote from LightOps Solutions. Tell us about your Salesforce or DevOps project and we'll get back with a detailed proposal."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>"/>
+</head>
+<body>
+
+<!-- ======== NAVIGATION ======== -->
+<header>
+  <nav class="container">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">⚡</div>
+      <span class="logo-text">Light<span>Ops</span> Solutions</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="quote.html" class="btn btn-primary nav-cta active">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ======== PAGE HERO ======== -->
+<section class="page-hero">
+  <div class="container">
+    <div class="badge">💼 Start a Project</div>
+    <h1>Get a Free Quote</h1>
+    <p>Tell us about your project — we'll respond with a tailored proposal within 48 hours.</p>
+  </div>
+</section>
+
+<!-- ======== QUOTE SECTION ======== -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info Side -->
+      <div class="contact-info">
+        <h3>What Happens Next?</h3>
+
+        <div class="contact-item">
+          <div class="contact-icon">📋</div>
+          <div class="contact-item-text">
+            <strong>1. You Submit the Form</strong>
+            <span>Tell us about your project, budget, and timeline</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🔍</div>
+          <div class="contact-item-text">
+            <strong>2. We Analyse Your Needs</strong>
+            <span>Our experts review your requirements within 24 hours</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📄</div>
+          <div class="contact-item-text">
+            <strong>3. You Receive a Proposal</strong>
+            <span>A detailed quote with scope, timeline, and pricing — within 48 hours</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🤝</div>
+          <div class="contact-item-text">
+            <strong>4. We Kick Off</strong>
+            <span>Align on scope, sign agreement, and get started</span>
+          </div>
+        </div>
+
+        <div class="contact-domains" style="margin-top:32px">
+          <p>📍 Based in Pune, India &nbsp;·&nbsp; Est. 2025</p>
+          <a href="mailto:info@lightops.tech" class="domain-tag">info@lightops.tech</a>
+          <a href="mailto:info@lightops.in" class="domain-tag">info@lightops.in</a>
+        </div>
+      </div>
+
+      <!-- Quote Form -->
+      <div class="contact-form">
+        <h3>Project Details</h3>
+
+        <div class="form-success" id="quoteSuccess">
+          ✅ Thank you! Your quote request has been received. We'll send you a proposal within 48 hours.
+        </div>
+
+        <form id="quoteForm" action="https://formspree.io/f/mzdjzybq" method="POST" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="qFirstName">First Name *</label>
+              <input type="text" id="qFirstName" name="firstName" placeholder="John" required/>
+            </div>
+            <div class="form-group">
+              <label for="qLastName">Last Name *</label>
+              <input type="text" id="qLastName" name="lastName" placeholder="Doe" required/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="qEmail">Business Email *</label>
+            <input type="email" id="qEmail" name="email" placeholder="john@yourcompany.com" required/>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="qPhone">Phone Number</label>
+              <input type="tel" id="qPhone" name="phone" placeholder="+91 98765 43210"/>
+            </div>
+            <div class="form-group">
+              <label for="qCompany">Company Name *</label>
+              <input type="text" id="qCompany" name="company" placeholder="Your Company Ltd." required/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="qService">Service Required *</label>
+            <select id="qService" name="service" required>
+              <option value="" disabled selected>— Select a Service —</option>
+              <option value="salesforce">Salesforce Consulting</option>
+              <option value="devops">DevOps Engineering</option>
+              <option value="mlops">MLOps</option>
+              <option value="devsecops">DevSecOps</option>
+              <option value="finops">FinOps</option>
+              <option value="multiple">Multiple Services</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="qBudget">Estimated Budget *</label>
+            <select id="qBudget" name="budget" required>
+              <option value="" disabled selected>— Select Budget Range —</option>
+              <option value="under5k">Under ₹5,00,000</option>
+              <option value="5k-15k">₹5,00,000 – ₹15,00,000</option>
+              <option value="15k-50k">₹15,00,000 – ₹50,00,000</option>
+              <option value="50k+">₹50,00,000+</option>
+              <option value="discuss">Prefer to Discuss</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="qTimeline">Desired Start Timeline *</label>
+            <select id="qTimeline" name="timeline" required>
+              <option value="" disabled selected>— When do you want to start? —</option>
+              <option value="asap">As soon as possible</option>
+              <option value="1month">Within 1 month</option>
+              <option value="3months">Within 3 months</option>
+              <option value="6months">Within 6 months</option>
+              <option value="exploring">Just exploring for now</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="qProject">Project Description *</label>
+            <textarea id="qProject" name="project" placeholder="Describe your project — what are you trying to build or solve? What does success look like? Any existing systems we should know about?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Request My Quote 📄</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== FOOTER ======== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark">⚡</div>
+          <span class="logo-text">Light<span>Ops</span> Solutions</span>
+        </div>
+        <p>Founded in 2025 and based in Pune, India — we illuminate the path to digital excellence through Salesforce mastery and DevOps innovation.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#salesforce">Salesforce</a></li>
+          <li><a href="services.html#devops">DevOps</a></li>
+          <li><a href="services.html#mlops">MLOps</a></li>
+          <li><a href="services.html#devsecops">DevSecOps</a></li>
+          <li><a href="services.html#finops">FinOps</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="quote.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:info@lightops.tech">info@lightops.tech</a></li>
+          <li><a href="mailto:info@lightops.in">info@lightops.in</a></li>
+          <li><a href="quote.html">Request a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LightOps Solutions. Est. 2025, Pune, India. All rights reserved.</p>
+      <div class="footer-domains">
+        <a href="https://lightops.in" target="_blank">lightops.in</a>
+        <a href="https://lightops.com" target="_blank">lightops.com</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

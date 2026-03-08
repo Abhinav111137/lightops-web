@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" rx="80" fill="#0a2540"/>
+
+  <!-- Bolt icon background glow -->
+  <circle cx="200" cy="155" r="80" fill="url(#glowGrad)" opacity="0.25"/>
+
+  <!-- Lightning bolt -->
+  <polygon points="215,60 175,165 205,165 185,250 235,135 205,135 230,60" fill="url(#boltGrad)"/>
+
+  <!-- Company name: LightOps -->
+  <text x="200" y="305" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="700" text-anchor="middle" fill="#ffffff" letter-spacing="-1">Light<tspan fill="#00b4d8">Ops</tspan></text>
+
+  <!-- Tagline: Solutions -->
+  <text x="200" y="348" font-family="Segoe UI, system-ui, sans-serif" font-size="24" font-weight="400" text-anchor="middle" fill="rgba(255,255,255,0.6)" letter-spacing="6">SOLUTIONS</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="100%" stop-color="#0a2540" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

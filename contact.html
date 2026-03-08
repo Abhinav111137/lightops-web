@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — LightOps Solutions</title>
+  <meta name="description" content="Get in touch with LightOps Solutions. Send us your query and our experts will respond within 24 hours."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>"/>
+</head>
+<body>
+
+<!-- ======== NAVIGATION ======== -->
+<header>
+  <nav class="container">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">⚡</div>
+      <span class="logo-text">Light<span>Ops</span> Solutions</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="quote.html" class="btn btn-primary nav-cta">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ======== PAGE HERO ======== -->
+<section class="page-hero">
+  <div class="container">
+    <div class="badge">We'd Love to Hear From You</div>
+    <h1>Contact LightOps Solutions</h1>
+    <p>Drop us a message — our experts will respond within 24 hours.</p>
+  </div>
+</section>
+
+<!-- ======== CONTACT SECTION ======== -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info Side -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-item-text">
+            <strong>Email Us</strong>
+            <span>info@lightops.tech</span><br>
+            <span>info@lightops.in</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <strong>Call Us</strong>
+            <span>+91 (800) XXX-XXXX</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <strong>Our Location</strong>
+            <span>Pune, Maharashtra, India — Est. 2025</span><br>
+            <span>Serving clients globally across US, UK, EU & APAC</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div class="contact-item-text">
+            <strong>Working Hours</strong>
+            <span>Mon – Fri: 9:00 AM – 7:00 PM IST</span>
+          </div>
+        </div>
+
+        <div class="contact-domains">
+          <p>Our Domains</p>
+          <a href="https://lightops.in" target="_blank" class="domain-tag">🌐 lightops.in</a>
+          <a href="https://lightops.com" target="_blank" class="domain-tag">🌐 lightops.com</a>
+        </div>
+      </div>
+
+      <!-- Form Side -->
+      <div class="contact-form">
+        <h3>Send Us Your Query</h3>
+
+        <div class="form-success" id="formSuccess">
+          ✅ Thank you! Your message has been received. We'll get back to you within 24 hours.
+        </div>
+
+        <form id="contactForm" action="https://formspree.io/f/xgonvrew" method="POST" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="John" required/>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Doe" required/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Business Email *</label>
+            <input type="email" id="email" name="email" placeholder="john@yourcompany.com" required/>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210"/>
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Your Company Ltd."/>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service You're Interested In *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>— Select a Service —</option>
+              <option value="salesforce">Salesforce Consulting</option>
+              <option value="devops">DevOps Engineering</option>
+              <option value="mlops">MLOps</option>
+              <option value="devsecops">DevSecOps</option>
+              <option value="finops">FinOps</option>
+              <option value="multiple">Multiple Services</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message / Query *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project, challenges, or questions. The more detail you share, the better we can help you." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Send Message ✈️</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== FOOTER ======== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark">⚡</div>
+          <span class="logo-text">Light<span>Ops</span> Solutions</span>
+        </div>
+        <p>Founded in 2025 and based in Pune, India — we illuminate the path to digital excellence through Salesforce mastery and DevOps innovation.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#salesforce">Salesforce</a></li>
+          <li><a href="services.html#devops">DevOps</a></li>
+          <li><a href="services.html#mlops">MLOps</a></li>
+          <li><a href="services.html#devsecops">DevSecOps</a></li>
+          <li><a href="services.html#finops">FinOps</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="quote.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:info@lightops.tech">info@lightops.tech</a></li>
+          <li><a href="mailto:info@lightops.in">info@lightops.in</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LightOps Solutions. Est. 2025, Pune, India. All rights reserved.</p>
+      <div class="footer-domains">
+        <a href="https://lightops.in" target="_blank">lightops.in</a>
+        <a href="https://lightops.com" target="_blank">lightops.com</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
