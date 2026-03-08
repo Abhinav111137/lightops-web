@@ -208,6 +208,15 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 footer { background: var(--primary); color: rgba(255,255,255,.75); padding: 64px 0 24px; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
 .footer-brand p { font-size: .88rem; margin-top: 16px; max-width: 280px; color: rgba(255,255,255,.55); }
+.footer-social { margin-top: 16px; }
+.social-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #0077b5; color: #fff;
+  font-size: .82rem; font-weight: 600;
+  padding: 8px 16px; border-radius: 50px;
+  transition: var(--transition);
+}
+.social-btn:hover { background: #005f8e; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,119,181,.4); }
 .footer-col h4 { color: var(--white); font-size: .9rem; font-weight: 700; margin-bottom: 16px; letter-spacing: .5px; }
 .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
 .footer-col ul li a { font-size: .85rem; color: rgba(255,255,255,.55); transition: var(--transition); }
