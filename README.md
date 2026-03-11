@@ -3,6 +3,7 @@
 > *"Where Clarity Meets Velocity — We Don't Just Deliver Solutions, We Ignite Possibilities."*
 
 **Live Website:** [lightops.in](https://lightops.in) | [lightops.tech](https://lightops.tech)  
+**Netlify URL:** [splendid-faloodeh-7c8e0c.netlify.app](https://splendid-faloodeh-7c8e0c.netlify.app)  
 **GitHub Repo:** [github.com/Abhinav111137/lightops-web](https://github.com/Abhinav111137/lightops-web)  
 **Company:** LightOps Solutions, Pune, India — Est. 2025
 

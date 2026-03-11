@@ -10,7 +10,7 @@ This is the website for **LightOps Solutions**, a technology consulting company 
 - DevSecOps (SAST/DAST, Zero Trust, Vault, Compliance)
 - FinOps (Cloud cost optimization, rightsizing, showback/chargeback)
 
-**Domains:** lightops.in | lightops.com
+**Domains:** lightops.in | lightops.tech
 
 ## Tech Stack
 - HTML5, CSS3, Vanilla JavaScript
