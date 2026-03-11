@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 191" width="1128" height="191">
+  <defs>
+    <!-- Main background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#061a30"/>
+      <stop offset="55%"  stop-color="#0a2540"/>
+      <stop offset="100%" stop-color="#0d3a6e"/>
+    </linearGradient>
+
+    <!-- Bolt gradient -->
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+
+    <!-- Icon box gradient -->
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d3a6e"/>
+      <stop offset="100%" stop-color="#062040"/>
+    </linearGradient>
+
+    <!-- Accent glow -->
+    <radialGradient id="glowLeft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a2540" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Right glow -->
+    <radialGradient id="glowRight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0a2540" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Clip for rounded corners -->
+    <clipPath id="roundedClip">
+      <rect width="1128" height="191" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1128" height="191" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circuit / grid lines -->
+  <!-- Horizontal faint lines -->
+  <line x1="0" y1="47" x2="1128" y2="47" stroke="rgba(0,180,216,0.06)" stroke-width="1"/>
+  <line x1="0" y1="95" x2="1128" y2="95" stroke="rgba(0,180,216,0.06)" stroke-width="1"/>
+  <line x1="0" y1="143" x2="1128" y2="143" stroke="rgba(0,180,216,0.06)" stroke-width="1"/>
+
+  <!-- Vertical faint lines -->
+  <line x1="282" y1="0" x2="282" y2="191" stroke="rgba(0,180,216,0.05)" stroke-width="1"/>
+  <line x1="564" y1="0" x2="564" y2="191" stroke="rgba(0,180,216,0.05)" stroke-width="1"/>
+  <line x1="846" y1="0" x2="846" y2="191" stroke="rgba(0,180,216,0.05)" stroke-width="1"/>
+
+  <!-- Left radial glow -->
+  <ellipse cx="100" cy="95" rx="160" ry="120" fill="url(#glowLeft)"/>
+
+  <!-- Right radial glow -->
+  <ellipse cx="980" cy="95" rx="200" ry="150" fill="url(#glowRight)"/>
+
+  <!-- Decorative accent top-left diagonal line -->
+  <line x1="0" y1="0" x2="300" y2="191" stroke="rgba(0,180,216,0.04)" stroke-width="60"/>
+
+  <!-- Accent bar — bottom -->
+  <rect x="0" y="183" width="1128" height="4" fill="url(#boltGrad)" opacity="0.7"/>
+
+  <!-- Accent bar — top -->
+  <rect x="0" y="0" width="1128" height="3" fill="url(#boltGrad)" opacity="0.4"/>
+
+  <!-- ====== LOGO MARK (left) ====== -->
+  <!-- Icon background box -->
+  <rect x="48" y="44" width="103" height="103" rx="20" fill="url(#iconBg)"/>
+  <!-- Bolt glow behind icon -->
+  <circle cx="100" cy="95" r="44" fill="rgba(0,180,216,0.10)"/>
+  <!-- Lightning bolt -->
+  <polygon points="112,56 86,102 107,102 90,144 122,94 101,94 118,56" fill="url(#boltGrad)"/>
+
+  <!-- ====== COMPANY NAME ====== -->
+  <text x="172" y="88"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="58" font-weight="700"
+    fill="#ffffff" letter-spacing="-1">Light<tspan fill="#00b4d8">Ops</tspan></text>
+
+  <!-- Divider -->
+  <line x1="172" y1="106" x2="640" y2="106" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- SOLUTIONS sub-word -->
+  <text x="174" y="140"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="17" font-weight="400"
+    fill="rgba(255,255,255,0.50)" letter-spacing="7">SOLUTIONS</text>
+
+  <!-- Dot separator -->
+  <circle cx="335" cy="133" r="2.5" fill="#00b4d8" opacity="0.8"/>
+
+  <!-- Sub tagline -->
+  <text x="349" y="140"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="15" font-weight="400"
+    fill="rgba(0,180,216,0.80)" letter-spacing="1">Salesforce &amp; DevOps Experts</text>
+
+  <!-- ====== RIGHT SIDE — SERVICE PILLS ====== -->
+  <!-- Salesforce pill -->
+  <rect x="710" y="42" width="130" height="30" rx="15" fill="rgba(0,180,216,0.12)" stroke="rgba(0,180,216,0.35)" stroke-width="1"/>
+  <text x="775" y="62" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#00b4d8" text-anchor="middle" letter-spacing="0.5">Salesforce</text>
+
+  <!-- DevOps pill -->
+  <rect x="852" y="42" width="100" height="30" rx="15" fill="rgba(0,180,216,0.12)" stroke="rgba(0,180,216,0.35)" stroke-width="1"/>
+  <text x="902" y="62" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#00b4d8" text-anchor="middle" letter-spacing="0.5">DevOps</text>
+
+  <!-- MLOps pill -->
+  <rect x="964" y="42" width="100" height="30" rx="15" fill="rgba(0,180,216,0.12)" stroke="rgba(0,180,216,0.35)" stroke-width="1"/>
+  <text x="1014" y="62" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#00b4d8" text-anchor="middle" letter-spacing="0.5">MLOps</text>
+
+  <!-- DevSecOps pill -->
+  <rect x="710" y="84" width="130" height="30" rx="15" fill="rgba(0,180,216,0.12)" stroke="rgba(0,180,216,0.35)" stroke-width="1"/>
+  <text x="775" y="104" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#00b4d8" text-anchor="middle" letter-spacing="0.5">DevSecOps</text>
+
+  <!-- FinOps pill -->
+  <rect x="852" y="84" width="100" height="30" rx="15" fill="rgba(0,180,216,0.12)" stroke="rgba(0,180,216,0.35)" stroke-width="1"/>
+  <text x="902" y="104" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#00b4d8" text-anchor="middle" letter-spacing="0.5">FinOps</text>
+
+  <!-- Main tagline -->
+  <text x="775" y="158"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="13" font-weight="400"
+    fill="rgba(255,255,255,0.40)" text-anchor="middle" letter-spacing="2">ILLUMINATE YOUR OPERATIONS</text>
+
+  <!-- Domain -->
+  <text x="1080" y="175"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="11" font-weight="400"
+    fill="rgba(0,180,216,0.50)" text-anchor="middle" letter-spacing="1">lightops.in</text>
+</svg>
