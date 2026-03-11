@@ -5,7 +5,7 @@
 **Live Website:** [lightops.in](https://lightops.in) | [lightops.tech](https://lightops.tech)  
 **Netlify URL:** [splendid-faloodeh-7c8e0c.netlify.app](https://splendid-faloodeh-7c8e0c.netlify.app)  
 **GitHub Repo:** [github.com/Abhinav111137/lightops-web](https://github.com/Abhinav111137/lightops-web)  
-**Company:** LightOps Solutions, Pune, India — Est. 2025
+**Company:** LightOps Solutions, Pune, India — Est. 2026
 
 ---
 
@@ -232,4 +232,4 @@ My-site/
 
 ---
 
-© 2026 LightOps Solutions. Est. 2025, Pune, India. All rights reserved.
+© 2026 LightOps Solutions. Est. 2026, Pune, India. All rights reserved.
